@@ -1,0 +1,49 @@
+sudo apt install gcc 
+filename.c
+nano .c ctrl+z y enter
+gcc filename.c
+./a.out
+
+##3
+Power off the VM
+
+H1
+
+BI田
+
+Go to the settings for the VM (Settings > Options > Shared Folders)
+
+Enable Folder Sharing
+
+Choose a local folder
+
+On the Linux VM
+
+Make sure VMware Tools are installed
+
+Ubuntu/Debian-based systems
+
+sudo apt update
+
+sudo apt install open-ym-tools open-ym-tools-desktop
+
+
+
+
+Open a terminal
+
+sudo mkdir -p/mnt/hgfs
+
+cd /mnt/hgfs 
+
+sudo mkdir -p/mnt/hgfs
+
+sudo mount -t fuse.vmhgfs-fuse .host://mnt/hgfs-o allow other
+
+sudo
+
+Runs the command with root privileges (required for mounting).
+
+mount
+
+The Linux command to attach a filesystem to a directory.
